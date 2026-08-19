@@ -1,0 +1,219 @@
+:root {
+  --bg: #0d0f12;
+  --bg-card: #15181e;
+  --primary: #00e599;
+  --primary-hover: #00c784;
+  --text: #f0f3f6;
+  --text-muted: #9ba3af;
+  --border: #232832;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar .logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.navbar nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.95rem;
+}
+
+.navbar nav a:hover {
+  color: var(--text);
+}
+
+.hero {
+  padding: 80px 0 60px;
+  text-align: center;
+}
+
+.badge {
+  background: rgba(0, 229, 153, 0.1);
+  color: var(--primary);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: 2.75rem;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.hero p {
+  color: var(--text-muted);
+  font-size: 1.15rem;
+  max-width: 680px;
+  margin: 0 auto 32px;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn-block {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.bg-alt {
+  background-color: #111419;
+}
+
+.section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 32px;
+  width: 100%;
+  max-width: 440px;
+}
+
+.product-card .price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.product-card .price span {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+.product-card .features {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.product-card .features li {
+  margin-bottom: 10px;
+  color: var(--text-muted);
+}
+
+.product-card .features li::before {
+  content: "✓ ";
+  color: var(--primary);
+}
+
+.lead-form {
+  display: flex;
+  max-width: 480px;
+  margin: 24px auto 0;
+  gap: 10px;
+}
+
+.lead-form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.form-status {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+
+.faq-item {
+  max-width: 680px;
+  margin: 0 auto 20px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 16px;
+}
+
+.faq-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  color: var(--text-muted);
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
