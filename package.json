@@ -1,0 +1,14 @@
+{
+  "name": "garnishgang-media",
+  "version": "1.0.0",
+  "description": "High-impact digital workflows, lead magnets, and creator monetization architectures.",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node -e \"console.log('Build complete')\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

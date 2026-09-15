@@ -1,0 +1,6 @@
+{
+  "name": "GarnishGang Media — The Catalyst Engine",
+  "description": "High-impact digital workflows, lead magnets, and creator monetization architectures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
